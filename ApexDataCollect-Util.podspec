@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ApexDataCollect-Util'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of ApexDataCollect-Util.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ApexDataCollect-Util/Classes/**/*'
+  # s.source_files = 'ApexDataCollect-Util/Classes/**/*'
+  s.vendored_frameworks = 'ApexDataCollect-Util/Classes/ApexDataCollectUtil_iOS.framework'
   
   # s.resource_bundles = {
   #   'ApexDataCollect-Util' => ['ApexDataCollect-Util/Assets/*.png']

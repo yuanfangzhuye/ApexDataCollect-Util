@@ -1,0 +1,6 @@
+framework module ApexDataCollectUtil_iOS {
+  umbrella header "ApexDataCollectUtil_iOS.h"
+
+  export *
+  module * { export * }
+}

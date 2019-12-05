@@ -1,0 +1,27 @@
+PODS:
+  - ApexDataCollect-Util (0.1.0)
+  - Expecta (1.0.6)
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - ApexDataCollect-Util (from `../`)
+  - Expecta
+  - Specta
+
+SPEC REPOS:
+  trunk:
+    - Expecta
+    - Specta
+
+EXTERNAL SOURCES:
+  ApexDataCollect-Util:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ApexDataCollect-Util: 4f6ae597b4ea962489835dd5fdcceb76438f516b
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: 27c6d5b87f202e93eb82cf334f5ca75c78ceab6d
+
+COCOAPODS: 1.8.4
